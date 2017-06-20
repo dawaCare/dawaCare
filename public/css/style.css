@@ -9,15 +9,24 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,600,700,800|Roboto:400,500,700,900');
 /* --- pe-icon-7-stroke --- */
 
+#services_right_col {
+  height: 500px;
+}
+
+#services_img {
+  /*margin-bottom: 10px;*/
+  margin-top: 64px;
+}
+
 
 body {
     width: 100%;
     height: 100%;
     font-family: 'Open Sans', sans-serif;
-	font-weight: 300;
+	  font-weight: 300;
     color: #666;
     background-color: #ddd;
-	font-size: 16px;
+	  font-size: 16px;
     line-height: 1.6em;
 }
 
@@ -87,6 +96,9 @@ h5 {
 h6 {
 	font-size: 20px;
 }
+#mission_statement h6{
+  font-weight: bold;
+}
 
 h1,
 h2,
@@ -141,6 +153,7 @@ p {
     margin: 0 0 20px;
 
 }
+
 
 p.medium {
 	font-weight: 500;
@@ -254,6 +267,11 @@ Top area
 
 .top-area p {
 	margin-bottom: 10px;
+}
+
+#vision_statement {
+  margin-top: 19px;
+  width: 500px;
 }
 
 /* ===========
@@ -812,8 +830,12 @@ ul.lead-list li span.fa {
 
 ul.lead-list li span.list {
 	display: inline-block;
-	margin: 0 0 0 10px;
+	margin: -33 0 0 50px;
   font-weight:  400;
+}
+
+ul.lead-list li:last-child span.list {
+  margin: -3% 0px 0% 4%;
 }
 
 p.lead-footer {
@@ -1019,10 +1041,15 @@ Elements
 }
 
 .service-desc h5 {
-	margin-bottom: 10px;
+	margin: 50px 0px -12px 71px;
+  height: 100px;
+  /*margin-bottom: 10px;*/
 }
 
-
+#service {
+  margin-bottom: -90px;
+  margin-top: -20px
+}
 /* ===========================
 --- Team
 ============================ */
@@ -1307,6 +1334,7 @@ Testimonial
 --- Footer
 ============================ */
 
+
 footer {
     background-color: #f2f2f2;
 }
@@ -1402,8 +1430,9 @@ a.scrollup i:hover {
 	text-decoration:none;
 }
 
-
-
+.email {
+  width: 200px;
+}
 /* ===========================
 --- Elements
 ============================ */
